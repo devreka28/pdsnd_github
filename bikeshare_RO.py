@@ -9,6 +9,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 def get_filters():
     """
+    Docstring will be added to all functions. They can be printed by using print(<function name>.__doc__)
     Asks user to specify a city, month, and day to analyze.
 
     Returns:
