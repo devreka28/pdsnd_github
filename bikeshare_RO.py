@@ -25,7 +25,7 @@ def get_filters():
             if city_input in ['chicago','Chicago','New York','new york','new york city','New York City','Washington','washington']:
                 break
             else:
-                print("Sorry, your input should be chicago, new york city or washington.")
+                print("Sorry, your input should be one of the following: chicago, new york city or washington.")
 
         except ValueError:
             print("Sorry, your input is wrong. Try again using one of the cities' name.")
@@ -270,7 +270,7 @@ def main():
         display_data(df)
 
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input("\nWould you like to restart? Please enter 'yes' all lower case to restart.\n")
         if restart.lower() != 'yes':
             break
 
